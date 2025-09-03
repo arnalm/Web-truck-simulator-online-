@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  -webkit-user-select: none;
+}
+
+#gameDiv{
+  height: 30vh;
+  width: 100%;
+  padding-top: 1%;
+  
+}
+
+
+
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+
+.hero {
+  background-image: url("/img/backGround /b.png");
+background-size: cover;
+  color: black;
+  padding: 5rem;
+  margin: 0 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  overflow: scroll;
+  border: 1px solid burlywood;
+}
+
+section {
+  padding: 2rem;
+}
+
+
+footer {
+  background: #ccc;
+  color: #222;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: transparent;
+  
+  
+}
+
+
+
+.hero a{
+  color: transparent;
+}
+
+
+
+
+/*.    game map*/
+
+.hero #div1{
+  background-image: url("/img/loadImg/cf.gif");
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-block-color: red;
+  color: black;
+}
+
+.hero #div2{
+  background-image: url("/img/cf.gif");
+background-size: cover;
+  height: 30vh;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-block-color: red;
+  color: black;
+  
+}
+
+.hero #div3{
+  background-color: red;
+  height: 30vh;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-block-color: red;
+  color: black;
+  
+}
+.hero #div4{
+  background-color: red;
+  height: 30vh;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-block-color: red;
+  color: black;
+  
+}
+
+h4{
+  text-align: center;
+}
+h5{
+  margin-left: 8px;
+}
+
+#icon{
+  position: absolute; 
+  left: 1%;
+  width:60px;
+  height:55px;
+  background-image: url("./img/loadImg/cf1.png");
+  background-size: cover;
+}
+
+
+

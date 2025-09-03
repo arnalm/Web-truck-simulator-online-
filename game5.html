@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" id="myvideo">
+<head>
+  <!------
+<script type='text/javascript' src='//pl24021803.highratecpm.com/86/a4/bf/86a4bf27d8dd434393eceb274ee6605e.js'></script>
+---->
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Truck Simulator 5</title>
+  <link rel="apple-touch-icon" href="./img/loadImg/back.png"/>
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+ <style>
+ 
+ *{
+   margin: 0;
+   padding: 0;
+ }
+body{
+   font-family: Arial, sans-serif;
+      padding: 0px;
+  -webkit-user-select: none;
+  background-image: url("/img/loadImg/full.gif");
+  background-size: cover;
+}
+#reload{
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      position: fixed;
+      top: 1%;
+      left: 1%;
+    }
+
+  
+
+  
+  #fullscreenBtn{
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 1%;
+  left: 85%;
+
+}
+  
+  
+  #move {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 80%;
+  left: 85%;
+  
+}
+  
+  
+
+  #move1{
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 60%;
+  left: 85%;
+  
+}
+  
+  #load{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 60%;
+    left: 1%;
+    
+  }   
+   
+  #unload {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 80%;
+    left: 1%;
+    
+  }   
+  /*
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background-color: #eaeaea;
+      position: relative;
+      font-family: Arial, sans-serif;
+      -webkit-user-select: none;
+    }
+
+    button {
+      position: absolute;
+      padding: 12px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    } 
+
+    .top-left {
+      top: 20px;
+      left: 20px;
+    }
+
+    .top-right {
+      top: 20px;
+      right: 20px;
+    }
+
+    .bottom-left {
+      bottom: 20px;
+      left: 20px;
+    }
+
+    .bottom-right {
+      bottom: 20px;
+      right: 20px;
+    }
+
+    
+    @media (max-width: 600px) {
+      button {
+        padding: 10px 14px;
+        font-size: 14px;
+      }
+
+      .top-left, .top-right, .bottom-left, .bottom-right {
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        position: fixed;
+      }
+
+      .top-left {
+        top: 10px;
+        left: 10px;
+      }
+
+      .top-right {
+        top: 10px;
+        right: 10px;
+      }
+
+      .bottom-left {
+        bottom: 10px;
+        left: 10px;
+      }
+
+      .bottom-right {
+        bottom: 10px;
+        right: 10px;
+      }
+    }  
+
+   */
+   
+ </style>
+
+</head>
+<body>
+
+  <button id="reload" class="top-left">&#8634;</button>
+  <button id="fullscreenBtn" class="top-right">&#x26F6;</button>
+  <button id="move" class="bottom-left">break</button>
+  <button id="move1" class="bottom-right">move</button>
+
+
+<!---
+
+<button id="fullscreenBtn">&#x26F6;</button>
+<button id="reload">&#8634;</button>
+
+
+<button id="move">break</button>
+<button id="move1">move</button>
+
+---->
+
+
+
+
+
+
+<script src="/jsm/toon3d.js"></script>
+<script type="module" src="/game5.js"></script>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<script>
+  
+ 
+  
+var elem = document.getElementById("myvideo");
+
+
+var fullscreenBtn =document.getElementById('fullscreenBtn')
+
+fullscreenBtn.addEventListener('click',function(){
+  if (elem.requestFullscreen) {
+elem.requestFullscreen();
+} else if (elem.webkitRequestFullscreen) { 
+elem.webkitRequestFullscreen();
+} else if (elem.msRequestFullscreen) { 
+elem.msRequestFullscreen();
+}
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
