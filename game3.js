@@ -349,7 +349,7 @@ wheelBodyA1 = new CANNON.Body({
   mass,
   wheelMaterial1,
 });
-wheelBodyA1 = new CANNON.Body({ mass: 80 })
+wheelBodyA1 = new CANNON.Body({ mass: 50 })
 wheelBodyA1.addShape(wheelA);
 vehicle1.addWheel({
   body:wheelBodyA1,
